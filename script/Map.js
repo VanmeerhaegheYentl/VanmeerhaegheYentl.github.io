@@ -1,6 +1,7 @@
-const serverEndPoint = 'http://api.open-notify.org/iss-now.json';
+const serverEndPoint = 'https://cors-anywhere.herokuapp.com/http://api.open-notify.org/iss-now.json';
 const loadData = setInterval(data, 1000)
 let long, lat, jsonData, map, htmlLong, htmlLat, button;
+
 
 function getDOMElements(){
     htmlLat = document.getElementById('lat');
